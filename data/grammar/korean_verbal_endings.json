@@ -1,0 +1,142 @@
+{
+  "아요/어요": {
+    "type": "final ending",
+    "role": "Polite informal present tense",
+    "example": "가요, 먹어요"
+  },
+  "았어요/었어요": {
+    "type": "final ending",
+    "role": "Polite informal past tense",
+    "example": "갔어요, 먹었어요"
+  },
+  "ㅂ니다/습니다": {
+    "type": "final ending",
+    "role": "Formal declarative present tense",
+    "example": "갑니다, 먹습니다"
+  },
+  "ㅂ니까/습니까": {
+    "type": "final ending",
+    "role": "Formal interrogative present tense",
+    "example": "갑니까?, 먹습니까?"
+  },
+  "겠어요": {
+    "type": "final ending",
+    "role": "Expresses intention, assumption or future",
+    "example": "가겠어요"
+  },
+  "고 있다": {
+    "type": "progressive",
+    "role": "Present progressive (be doing)",
+    "example": "먹고 있어요"
+  },
+  "고 있었다": {
+    "type": "progressive",
+    "role": "Past progressive",
+    "example": "먹고 있었어요"
+  },
+  "고": {
+    "type": "connective",
+    "role": "Connects actions in sequence",
+    "example": "먹고 마셨어요"
+  },
+  "지만": {
+    "type": "connective",
+    "role": "Contrast (but, although)",
+    "example": "좋지만 비싸요"
+  },
+  "서": {
+    "type": "connective",
+    "role": "Cause or sequence (because, so)",
+    "example": "배고파서 먹었어요"
+  },
+  "니까": {
+    "type": "connective",
+    "role": "Reason or justification (since, because)",
+    "example": "늦으니까 빨리 가요"
+  },
+  "으면/면": {
+    "type": "conditional",
+    "role": "Conditional (if, when)",
+    "example": "가면, 먹으면"
+  },
+  "자마자": {
+    "type": "connective",
+    "role": "As soon as",
+    "example": "도착하자마자 전화했어요"
+  },
+  "자": {
+    "type": "final ending",
+    "role": "Casual suggestion (let’s)",
+    "example": "가자"
+  },
+  "지 마세요": {
+    "type": "prohibitive",
+    "role": "Negative command (don’t)",
+    "example": "하지 마세요"
+  },
+  "지 않다": {
+    "type": "negation",
+    "role": "Negative form",
+    "example": "가지 않아요"
+  },
+  "려고 하다": {
+    "type": "intentional",
+    "role": "Intention (about to, try to)",
+    "example": "먹으려고 해요"
+  },
+  "ㄹ게요/을게요": {
+    "type": "final ending",
+    "role": "Future (promise or will)",
+    "example": "할게요, 먹을게요"
+  },
+  "ㄹ까요/을까요": {
+    "type": "final ending",
+    "role": "Suggestion or question (shall we?, do you think?)",
+    "example": "할까요?, 먹을까요?"
+  },
+  "ㄴ/은": {
+    "type": "modifier ending",
+    "role": "Past verb modifier",
+    "example": "먹은 밥"
+  },
+  "는": {
+    "type": "modifier ending",
+    "role": "Present verb modifier",
+    "example": "가는 사람"
+  },
+  "ㄹ/을": {
+    "type": "modifier ending",
+    "role": "Future verb modifier",
+    "example": "먹을 음식"
+  },
+  "게": {
+    "type": "adverbial ending",
+    "role": "Turns adjective into adverb",
+    "example": "빠르게"
+  },
+  "기 때문에": {
+    "type": "causal",
+    "role": "Because of (nominalized reason)",
+    "example": "아프기 때문에 못 갔어요"
+  },
+  "기는 하지만": {
+    "type": "contrastive",
+    "role": "Although, even though",
+    "example": "좋기는 하지만 비싸요"
+  },
+  "ㄹ 뿐이다/을 뿐이다": {
+    "type": "limitation",
+    "role": "Only, just",
+    "example": "볼 뿐이다"
+  },
+  "도록": {
+    "type": "purpose/result",
+    "role": "So that, in order to",
+    "example": "늦지 않도록"
+  },
+  "ㄹ지도 모르다/을지도 모르다": {
+    "type": "possibility",
+    "role": "Might, maybe",
+    "example": "비가 올지도 몰라요"
+  }
+}

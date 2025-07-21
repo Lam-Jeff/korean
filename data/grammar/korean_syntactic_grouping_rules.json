@@ -1,0 +1,135 @@
+[
+  {
+    "role": "subject",
+    "priority": 1,
+    "patterns": [
+      ["NP", "JKS"],
+      ["NNG", "JKS"],
+      ["NNP", "JKS"],
+      ["NP", "JX"],
+      ["NNG", "JX"],
+      ["NNP", "JX"],
+      ["NNG", "ETM", "NNG", "JKS"]
+    ],
+    "description": "Noun/pronoun followed by subject or topic particle, including noun phrase modifiers"
+  },
+  {
+    "role": "object",
+    "priority": 1,
+    "patterns": [
+      ["NNG", "JKO"],
+      ["NNP", "JKO"],
+      ["NP", "JKO"],
+      ["NNG", "ETM", "NNG", "JKO"]
+    ],
+    "description": "Object with optional modifiers"
+  },
+  {
+    "role": "complement",
+    "priority": 2,
+    "patterns": [
+      ["NNG", "JKC"],
+      ["NNP", "JKC"],
+      ["NP", "JKC"]
+    ],
+    "description": "Noun or pronoun with complement particle"
+  },
+  {
+    "role": "location/direction",
+    "priority": 2,
+    "patterns": [
+      ["NNG", "JKB"],
+      ["NNP", "JKB"],
+      ["NP", "JKB"]
+    ],
+    "description": "Location or direction marker"
+  },
+  {
+    "role": "predicate",
+    "priority": 1,
+    "patterns": [
+      ["VV", "EP", "EF"],
+      ["VA", "EP", "EF"],
+      ["VX", "EP", "EF"],
+      ["VV", "EC", "VX", "EP", "EF"],
+      ["VV", "EC", "VV", "EP", "EF"]
+    ],
+    "description": "Main predicate forms"
+  },
+  {
+    "role": "negation",
+    "priority": 0,
+    "patterns": [
+      ["VV", "EC", "VX", "EP", "EF"],
+      ["VX", "EP", "EF"]
+    ],
+    "conditions": {
+      "on": ["VX"],
+      "type": "=",
+      "matches": ["않다", "못하다", "말다"]
+    },
+    "description": "Negation pattern"
+  },
+  {
+    "role": "suggestion/question",
+    "priority": 0,
+    "patterns": [
+      ["VV", "EP", "EF"],
+      ["VX", "EP", "EF"]
+    ],
+    "conditions": {
+      "on": ["EF"],
+      "type": "end",
+      "matches": ["까요", "을까요", "겠어요"]
+    },
+    "description": "Suggestions or questions"
+  },
+  {
+    "role": "modifier",
+    "priority": 2,
+    "patterns": [
+      ["VV", "ETM", "NNG"],
+      ["VA", "ETM", "NNG"],
+      ["VV", "ETM", "NNG", "JKS"]
+    ],
+    "description": "Verb/adjective modifying noun"
+  },
+  {
+    "role": "adverbial",
+    "priority": 3,
+    "patterns": [
+      ["MAG", "VV"],
+      ["MAG", "VA"],
+      ["MMA", "NNG"]
+    ],
+    "description": "Adverbs and quantifiers"
+  },
+  {
+    "role": "connector",
+    "priority": 3,
+    "patterns": [
+      ["VV", "EC"],
+      ["VA", "EC"]
+    ],
+    "description": "Connective clauses"
+  },
+  {
+    "role": "vocative",
+    "priority": 3,
+    "patterns": [
+      ["NNP", "JX"],
+      ["NNG", "JX"]
+    ],
+    "conditions": { "on": ["JX"], "type": "=", "matches": ["아", "야"] },
+    "description": "Vocative expression"
+  },
+  {
+    "role": "quotation",
+    "priority": 4,
+    "patterns": [
+      ["NNG", "JKQ"],
+      ["NP", "JKQ"]
+    ],
+    "description": "Quotation expression like '라고'"
+  }
+]

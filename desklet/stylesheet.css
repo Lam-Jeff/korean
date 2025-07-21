@@ -1,0 +1,58 @@
+.desklet-container {
+  height: 650px;
+  width: 425px;
+  background-color: lightgray;
+  border-radius: 12px !important;
+}
+
+.flashcard-title {
+  height: 50px;
+  color: black;
+  font-size: 16px;
+  padding: 32px 0 0 32px;
+}
+
+.flashcard-progression {
+  color: black;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.flashcard-container {
+  height: 450px;
+  width: 300px;
+  background-color: white;
+  margin: 20px 16px;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  text-align: center;
+
+}
+
+.flashcard-label {
+  color: #585858;
+  font-size: 16px;
+  height: 450px;
+  /* same as flashcard-container */
+  width: 300px;
+  /* same as flashcard-container */
+  padding: 16px;
+}
+
+.next-label {
+  color: #585858;
+  font-size: 16px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  transition: background-color 1s ease;
+}
+
+.next-label:hover {
+  background-color: #A9A9A9;
+}
+
+.footer-container {
+  padding: 16px;
+}

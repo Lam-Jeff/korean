@@ -1,0 +1,74 @@
+{
+  "는/은": {
+    "type": "topic particle",
+    "role": "marks the topic of the sentence or adds contrast"
+  },
+  "이/가": {
+    "type": "subject particle",
+    "role": "indicates the grammatical subject of the sentence"
+  },
+  "을/를": {
+    "type": "object particle",
+    "role": "marks the direct object of the verb"
+  },
+  "에": {
+    "type": "location/time particle",
+    "role": "indicates direction, location, or time"
+  },
+  "에서": {
+    "type": "location particle",
+    "role": "indicates the location of an action or the starting point"
+  },
+  "와/과": {
+    "type": "conjunction particle",
+    "role": "means 'and' between nouns (formal/written)"
+  },
+  "하고": {
+    "type": "conjunction particle",
+    "role": "means 'and' (common in spoken language)"
+  },
+  "랑/이랑": {
+    "type": "conjunction particle",
+    "role": "means 'and' (informal/friendly)"
+  },
+  "도": {
+    "type": "additive particle",
+    "role": "means 'also', 'too'"
+  },
+  "만": {
+    "type": "restrictive particle",
+    "role": "means 'only'"
+  },
+  "까지": {
+    "type": "limit particle",
+    "role": "means 'up to' or 'until'"
+  },
+  "부터": {
+    "type": "starting point particle",
+    "role": "means 'from' or 'starting from'"
+  },
+  "이나/나": {
+    "type": "choice particle",
+    "role": "means 'or' or 'at least'"
+  },
+  "의": {
+    "type": "possessive particle",
+    "role": "indicates possession (like 'of' in English)"
+  },
+  "으로/로": {
+    "type": "means/direction particle",
+    "role": "indicates method, means, direction, or tool"
+  },
+  "밖에": {
+    "type": "exclusive particle",
+    "role": "means 'nothing but' or 'only' (used with negative form)"
+  },
+  "마다": {
+    "type": "frequency particle",
+    "role": "means 'every', 'each'"
+  },
+  "처럼/같이": {
+    "type": "comparison particle",
+    "role": "means 'like', 'as if'"
+  }
+}

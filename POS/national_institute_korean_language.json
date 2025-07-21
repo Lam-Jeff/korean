@@ -1,0 +1,18 @@
+{
+  "전체": "Full",
+  "명사": "Noun",
+  "대명사": "Pronun",
+  "수사": "Rhetor",
+  "조사": "Posposition",
+  "동사": "Verbe",
+  "형용사": "Adjective",
+  "관형사": " Adverbe",
+  "부사": "Interjection",
+  "감탄사": "Exclamation",
+  "접사": "Affix",
+  "의존 명사": "Dependent Noun",
+  "보조 동사": "Auxiliary Verb",
+  "보조 형용사": "Auxiliary Adjective",
+  "어미": "Suffix",
+  "품사 없음": "No Part Of Speech"
+}

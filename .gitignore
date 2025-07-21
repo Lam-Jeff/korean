@@ -1,0 +1,91 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+
+# Environnements virtuels
+env/
+ENV/
+venv/
+.venv/
+
+# Cache et tests
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.mypy_cache/
+.dmypy.json
+.prof
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === SQLite3 ===
+*.sqlite3
+*.sqlite
+*.db
+
+# === GNOME JavaScript (GJS) ===
+*.gsmo
+*.o
+*.lo
+*.la
+*.gir
+*.typelib
+*.gresource
+*.gresource.c
+*.vapi/
+*.mo
+*.pot
+*.po~
+.deps/
+.libs/
+build-*/         # GNOME Builder temporary dirs
+
+# === Fichiers sensibles ===
+.env
+.env.*
+*.secret
+secrets.json
+
+# === IDEs et éditeurs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Système et autres ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Git et conflits ===
+*.orig
+*.rej
+*.patch
+
+# === Sauvegardes et fichiers temporaires ===
+*.bak
+*.tmp
+*.swp
+*.swo
+*.~undo-tree~
+
+# === Logs et fichiers temporaires ===
+logs/
+temp/
+*.out
+

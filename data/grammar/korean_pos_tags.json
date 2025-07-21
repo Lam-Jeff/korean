@@ -1,0 +1,183 @@
+{
+  "NNG": {
+    "name": "General Noun",
+    "description": "Common nouns that refer to things, people, or concepts."
+  },
+  "NNP": {
+    "name": "Proper Noun",
+    "description": "Proper names for people, places, or organizations."
+  },
+  "NNB": {
+    "name": "Bound Noun",
+    "description": "Nouns that cannot stand alone and require modifiers."
+  },
+  "NNBC": {
+    "name": "Counter Noun",
+    "description": "Nouns used to count objects (e.g. 개, 명, 권)."
+  },
+  "NR": {
+    "name": "Numeral",
+    "description": "Numbers used as nouns."
+  },
+  "NP": {
+    "name": "Pronoun",
+    "description": "Words like I, you, he, she, etc."
+  },
+  "VV": {
+    "name": "Verb",
+    "description": "Action or state verbs."
+  },
+  "VA": {
+    "name": "Adjective",
+    "description": "Descriptive verbs (Korean adjectives)."
+  },
+  "VX": {
+    "name": "Auxiliary Verb",
+    "description": "Verbs used to support main verbs (e.g. 하다, 되다)."
+  },
+  "VCP": {
+    "name": "Copula",
+    "description": "The verb 'to be' (이다)."
+  },
+  "VCN": {
+    "name": "Negation Copula",
+    "description": "The verb 'not to be' (아니다)."
+  },
+  "MM": {
+    "name": "Determiner",
+    "description": "Modifiers like 'this', 'that', 'every'."
+  },
+  "MAG": {
+    "name": "General Adverb",
+    "description": "Adverbs modifying verbs, adjectives, or other adverbs."
+  },
+  "MAJ": {
+    "name": "Conjunctive Adverb",
+    "description": "Adverbs that connect phrases or sentences."
+  },
+  "IC": {
+    "name": "Interjection",
+    "description": "Exclamations or filler words (e.g. 아, 어머, 와)."
+  },
+  "JKS": {
+    "name": "Subject Particle",
+    "description": "Marks the subject (이/가)."
+  },
+  "JKC": {
+    "name": "Complement Particle",
+    "description": "Used before verbs like 되다 or 이다."
+  },
+  "JKG": {
+    "name": "Genitive Particle",
+    "description": "Possessive marker (의)."
+  },
+  "JKO": {
+    "name": "Object Particle",
+    "description": "Marks the object (을/를)."
+  },
+  "JKB": {
+    "name": "Adverbial Particle",
+    "description": "Marks place/time/direction (에, 에서, 으로)."
+  },
+  "JKV": {
+    "name": "Vocative Particle",
+    "description": "Used when addressing someone (e.g. 아버지께)."
+  },
+  "JKQ": {
+    "name": "Quotation Particle",
+    "description": "Marks quoted content (라고, 고)."
+  },
+  "JX": {
+    "name": "Auxiliary Particle",
+    "description": "Particles like 도, 만, 밖에."
+  },
+  "JC": {
+    "name": "Conjunctive Particle",
+    "description": "Joins two words or phrases (와/과, 하고)."
+  },
+  "EP": {
+    "name": "Pre-Final Ending",
+    "description": "Attached to verb stems to show tense, mood, etc."
+  },
+  "EF": {
+    "name": "Final Ending",
+    "description": "Sentence-final endings (e.g. 요, 다, 까?)."
+  },
+  "EC": {
+    "name": "Connective Ending",
+    "description": "Links two clauses (e.g. 고, 서, 니까)."
+  },
+  "ETM": {
+    "name": "Modifier Ending",
+    "description": "Makes a verb/adjective into an adjective phrase."
+  },
+  "ETN": {
+    "name": "Nominalizer Ending",
+    "description": "Turns verb into noun (e.g. -기, -ㅁ)."
+  },
+  "XPN": {
+    "name": "Prefix",
+    "description": "Attaches before a noun."
+  },
+  "XSN": {
+    "name": "Noun Suffix",
+    "description": "Attaches after a noun."
+  },
+  "XSV": {
+    "name": "Verb Suffix",
+    "description": "Attaches after a stem to make a verb."
+  },
+  "XSA": {
+    "name": "Adjective Suffix",
+    "description": "Attaches after a stem to make an adjective."
+  },
+  "XR": {
+    "name": "Root",
+    "description": "Lexical root form used to derive other words."
+  },
+  "SF": {
+    "name": "Punctuation (Sentence Final)",
+    "description": "Period, question mark, exclamation mark, etc."
+  },
+  "SE": {
+    "name": "Ellipsis",
+    "description": "Ellipsis (...)"
+  },
+  "SSO": {
+    "name": "Opening Bracket",
+    "description": "‘(’, ‘[’, etc."
+  },
+  "SSC": {
+    "name": "Closing Bracket",
+    "description": "‘)’, ‘]’, etc."
+  },
+  "SC": {
+    "name": "Comma Punctuation",
+    "description": "Commas, colons, semicolons."
+  },
+  "SY": {
+    "name": "Symbol",
+    "description": "Special symbols like @, #, %, etc."
+  },
+  "SL": {
+    "name": "Foreign Word (Latin)",
+    "description": "Words written in Latin alphabet."
+  },
+  "SH": {
+    "name": "Chinese Character",
+    "description": "Hanja (Chinese characters used in Korean)."
+  },
+  "SN": {
+    "name": "Number",
+    "description": "Arabic numerals (0–9)."
+  },
+  "UNA": {
+    "name": "Unknown Alphabet",
+    "description": "Unclassified alphabetic sequence (non-standard or foreign symbols)."
+  },
+  "UNKNOWN": {
+    "name": "Unknown",
+    "description": "Unrecognized token or unknown part of speech."
+  }
+}
+
