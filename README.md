@@ -11,10 +11,7 @@ Projet qui permet de générer quotidiennement des flashcards contenant: un mot,
 ## À propos
 
 Le projet est né de mon envie d'apprendre la langue coréenne. Ce projet combine: apprentissage d'une langue, analyse de données, programmation, introduction à la NLP
-Le projet contient une analyse de la langue coréenne afin de donner des pistes d'apprentissage. Ce projet combine les fonctionnalités d'applications comme Anki et de traducteurs. L'idée est d'avoir toutes ces fonctionnalités au même endroit.
-
-## Démo
-
+Le projet contient une analyse de la langue coréenne afin de donner des pistes d'apprentissage. Ce projet combine les fonctionnalités d'applications comme Anki et de traducteurs. L'idée est d'avoir toutes ces fonctionnalités au même endroit. Les flashcards utilisent le système de desklets sur Linux Mint.
 
 ## 📄 Licence
 
