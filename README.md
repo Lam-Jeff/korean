@@ -5,7 +5,6 @@ Projet qui permet de générer quotidiennement des flashcards contenant: un mot,
 ## Sommaire
 
 - [À propos](#-à-propos)
-- [Démo](#-démo)
 - [Licence](#-licence)
 
 ## À propos
